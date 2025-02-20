@@ -1,18 +1,9 @@
 # Employee-Management-System
  
- Smart Employee Management System with Interactive Features
+This Smart Employee Management System is a Flask-based web application designed to manage employee data efficiently. It includes:
 
-follow these steps to run the program
- 
-1. Extract file to C: Drive
-2. Find the path on CMD (C:\group5>) 
-3. Type -> pip install -r requirements.txt
-4. Type -> set FLASK_APP=app.py
-5. Type -> flask run
-
-if the above doesn't work
-
-1. Extract file to C: Drive
-2. Find the path on CMD (C:\group5>) 
-3. Type -> pip install -r requirements.txt
-4. Type -> python app.py
+Employee Management: Add, update, and delete staff records, storing their names and addresses.
+Interactive Map: Uses Leaflet.js to display employee locations based on geocoded addresses.
+Weather Integration: Fetches real-time weather data for a specified location using the OpenWeatherMap API.
+Currency Exchange Rates: Retrieves up-to-date currency exchange rates with a base currency of choice.
+Database Support: Stores employee data in SQLite, handling staff details dynamicall
